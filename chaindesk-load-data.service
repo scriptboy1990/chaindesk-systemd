@@ -5,8 +5,8 @@ After=network.target
 [Service]
 # Replace your_username with your username
 User=root
-# Replace /path/to/your/project with your working directory
-WorkingDirectory=/path/to/your/project
+# Replace /your/directory with your working directory
+WorkingDirectory=/your/directory
 ExecStart=/root/.local/share/pnpm/pnpm worker:datasource-loader
 Restart=always
 
