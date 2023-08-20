@@ -1,11 +1,11 @@
 #/bin/sh
 # Reload systemd and start the services
 sudo systemctl daemon-reload
-sudo systemctl start chaindesk-load-data
-sudo systemctl start chaindesk-start-app
+sudo systemctl start chaindesk-load-data.service
+sudo systemctl start chaindesk-start-app.service
 # Enable the services to start on boot
-sudo systemctl enable chaindesk-load-data
-sudo systemctl enable chaindesk-start-app
+sudo systemctl enable chaindesk-load-data.service
+sudo systemctl enable chaindesk-start-app.service
 # To view logs: journalctl -u start-sissi-app
 # To monitor service: systemctl status start-sissi-app
 exit 0
