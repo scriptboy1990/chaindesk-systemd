@@ -4,6 +4,7 @@ This repository provides **systemd services** for running [Chaindesk](https://gi
 ```bash
 # Make services executable
 chmod +x load-sissi-data.service run-sissi-app.service install.sh
+
 # Run installation script
 ./install.sh
 ```
