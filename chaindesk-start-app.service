@@ -5,7 +5,7 @@ After=network.target chaindesk-load-data.service
 [Service]
 User=root
 WorkingDirectory=/root/your_directory
-ExecStart=/root/.local/share/pnpm/pnpm worker:datasource-loader start
+ExecStart=/root/.local/share/pnpm/pnpm start
 Restart=always
 
 [Install]
