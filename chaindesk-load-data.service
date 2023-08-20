@@ -1,0 +1,14 @@
+[Unit]
+Description=PNPM Datasource Loader for Chaindesk
+After=network.target
+
+[Service]
+# Replace your_username with your username
+User=your_username
+# Replace /path/to/your/project with your working directory
+WorkingDirectory=/path/to/your/project
+ExecStart=/usr/bin/pnpm worker:datasource-loader
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
