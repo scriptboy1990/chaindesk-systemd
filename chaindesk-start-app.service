@@ -1,0 +1,12 @@
+[Unit]
+Description=PNPM Start Service for chaindesk
+After=network.target chaindesk-load-data.service
+
+[Service]
+User=your_username
+WorkingDirectory=/path/to/your/project
+ExecStart=/usr/bin/pnpm start
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
