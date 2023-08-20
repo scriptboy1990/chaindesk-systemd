@@ -3,5 +3,5 @@ This repository provides **systemd services** for running [Chaindesk](https://gi
 # How to use
 Make services executable and run the installation script. You can do this with the following command:
 ```bash
-chmod +x load-sissi-data.service run-sissi-app.service install.sh && ./install.sh
+chmod +x chaindesk-load-data.service chaindesk-start-app.service install.sh && ./install.sh
 ```
