@@ -1,7 +1,7 @@
 # 💻 Chaindesk systemd
 This repository helps you deploying and running [Chaindesk](https://github.com/gmpetrov/databerry/) on any Linux server.
 # Installation
-Run this command:
+Run this command after cloning the repo:
 ```bash
 chmod +x chaindesk-load-data.service chaindesk-start-app.service install.sh && ./install.sh
 ```
