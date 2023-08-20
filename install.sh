@@ -1,4 +1,7 @@
 #/bin/sh
+# Copy service files to systemd folder
+cp chaindesk-load-data.service /etc/systemd/system/
+cp chaindesk-start-app.service /etc/systemd/system/
 # Reload systemd and start the services
 sudo systemctl daemon-reload
 sudo systemctl start chaindesk-load-data.service
