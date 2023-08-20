@@ -3,9 +3,9 @@ Description=PNPM Start Service for chaindesk
 After=network.target chaindesk-load-data.service
 
 [Service]
-User=your_username
-WorkingDirectory=/path/to/your/project
-ExecStart=/usr/bin/pnpm start
+User=root
+WorkingDirectory=/root/your_directory
+ExecStart=/root/.local/share/pnpm/pnpm worker:datasource-loader start
 Restart=always
 
 [Install]
