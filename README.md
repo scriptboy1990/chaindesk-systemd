@@ -1,2 +1,4 @@
-# chaindesk-systemd
-Services for running Chaindesk on a server
+# 💻 Chaindesk-systemd
+This repository provides systemd services for running Chaindesk on a Linux server.
+
+#
