@@ -1,5 +1,5 @@
 # 💻 Chaindesk systemd
-Deploy and run [Chaindesk](https://github.com/gmpetrov/databerry/) on any Linux server.
+A few deployment helpers for running [Chaindesk](https://github.com/gmpetrov/databerry/) on any Linux server.
 # Installation
 ## 1. Run the installation command
 ```bash
